@@ -32,9 +32,9 @@ function encriptar() {
 
     document.querySelector("#mostrar-texto").innerHTML = fraseEncriptada;
   } else if(textoIngresado.value==""){
-    document.querySelector("#mostrar-texto").innerHTML ="<span>Debe ingresar una frase o palabra</span>";
+    document.querySelector("#mostrar-texto").innerHTML ="Debe ingresar una frase o palabra";
   }else{
-    document.querySelector("#mostrar-texto").innerHTML ="<span>No puede contener mayusculas o acentos</span>";
+    document.querySelector("#mostrar-texto").innerHTML ="No puede contener mayusculas o acentos";
   }
 }
 function desencriptar() {
