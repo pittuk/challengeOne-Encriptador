@@ -1,0 +1,137 @@
+body {
+  background-color: #f3f5fc;
+}
+.logo img {
+  margin-top: 5px;
+  width: 50px;
+}
+
+.columna-izquierda {
+  vertical-align: top;
+  margin-left: 100px;
+  width: 60%;
+  display: inline-block;
+  height: 78vh;
+}
+
+textarea {
+  width: 90%;
+  background-color: #f3f5fc;
+  border: none;
+  height: 69vh;
+  color: #0a3871;
+  font-size: 32px;
+  font-weight: 400;
+  display: inline;
+}
+
+textarea:focus {
+  outline: none;
+}
+label {
+  display: block;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+#boton-encriptar {
+  background-color: #0a3871;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  display: inline;
+  cursor: pointer;
+}
+
+#boton-desencriptar {
+  background-color: #d8dfe8;
+  color: #0a3871;
+  font-size: 16px;
+  border: 1px solid #0a3871;
+  display: inline;
+  cursor: pointer;
+}
+
+.columna-derecha {
+  display: inline-block;
+  padding: 25px;
+  vertical-align: top;
+  width: 20%;
+  background-color: #ffffff;
+  border-radius: 32px;
+  height: 78vh;
+  box-shadow: 0px 17px 11px -15px rgb(0, 0, 0, 0.3);
+}
+
+.aviso {
+  padding: 5%;
+  height: 80%;
+}
+
+.muneco {
+  margin-top: 40%;
+  width: 100%;
+}
+
+.columna-derecha h4 {
+  text-align: center;
+  font-size: 24;
+  font-weight: bold;
+}
+
+.columna-derecha p {
+  text-align: center;
+  font-size: 16;
+}
+
+input {
+  border-radius: 24px;
+  padding: 24px 30px;
+  margin-right: 15px;
+  width: 45%;
+}
+#boton-copiar {
+  width: 100%;
+  background-color: #ffffff;
+  cursor: pointer;
+  vertical-align: baseline;
+}
+@media screen and (max-width: 768px) {
+  .columna-izquierda {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+        position: relative;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .columna-derecha {
+    display: block;
+    width: 80%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .aviso {
+    padding: 3%;
+  }
+
+  .muneco {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  #boton-encriptar {
+ 
+    margin-bottom: 20px;
+  }
+ 
+  input {
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+}
