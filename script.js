@@ -3,7 +3,7 @@ var textoIngresado = document.querySelector("#texto-ingresado");
 
 
 function encriptar() {
-  const regex=/^[a-zñ]+$/;
+  const regex=/^[a-zñ ]+$/;
 
   if (regex.test(textoIngresado.value)) {
     var arrayTextoIngresado = Array.from(textoIngresado.value);
